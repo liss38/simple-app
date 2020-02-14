@@ -27,17 +27,10 @@ const TableData = ({ tableData }) => {
 					/>)
 				}
 			</div>
-
-			<div style={{width: `500px`, fontFamily: `Arial`}}>
-				<b>Как сделать типовые задачи в web приложении на React JS: (это для резюме условно, для наработки практики, выложить на гитхаб пэйджес)</b>
-				<ul>
-					<li><a href="https://habr.com/ru/post/346584/" target="_blank">https://habr.com/ru/post/346584/ (ознакомительная статья)</a></li>
-					<li><a href="https://avrylkov.github.io/react/" target="_blank">https://avrylkov.github.io/react/ (пример для "потыканья")</a></li>
-					<li><a href="https://github.com/avrylkov/react" target="_blank">https://github.com/avrylkov/react (исходники "примера для потыканья")</a></li>
-				</ul>
-
-				<h2>Сделать @TODO</h2>
-				темы: -"рефакторинг и упорядочивание"; -"table-data"; ...
+			
+			<div>
+				Здесь стилизованный текстовый help про горячие клавиши, 
+				что может таблица и как ей пользоваться
 			</div>
 		</React.Fragment>
 	);
